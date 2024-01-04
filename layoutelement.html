@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Card Using Only Html and Css</title>
+    <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1;
+    }
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    nav {
+        float: left;
+        width: 30%;
+        height: 300px;
+        color:black;
+        padding: 20px;
+    }
+    nav ul {
+        list-style-type:circle;
+        padding: 0;
+    }
+
+    aside {
+        float: left;
+        width: 10%;
+        height: 800px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    article {
+        float: left;
+        padding: 20px;
+        width: 97.2%;
+        background-color: rgb(9, 112, 247);
+        height: 300px;
+        color: white;
+    }
+
+    section {
+        float: left;
+        width: 84.37%;
+        height: 800px;
+        padding: 20px;
+        background-color: rgb(52, 173, 234);
+    }
+
+    .video-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 600px) {
+        nav, aside, article, section {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    </style>
+</head>
+<body> 
+    <div class="container">
+    <header>
+        <h1>Responsive Product Card Using Only Html and Css</h1>
+    </header>
+    <div class="content">
+        <aside>
+            <nav>
+                <ul>
+                    <li style="font-size: smaller;"><a href="layout.html">Animated Login Form Using HTML & CSS</a></li>
+                    <li style="font-size: smaller;"><a href="layoutvideo.html">Responsive Registration Form in HTML & CSS</a></li>
+                </ul>        
+            </nav>    
+        </aside>
+        <section>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/C_usYJnyJ28"></iframe>
+              </div>
+        </section>
+        <article>
+            <p>This video tutorial will teach you to create an Animated Login Form Using HTML & CSS.
+            In this login form, I have added some important input fields that are needed while signup.
+            And, this login form is fully responsive and animated, easily fits on every device.</p>
+        </article>
+    </div>
+    <footer>
+        <p>&copy; source: https://www.youtube.com/@codingtime4605 | 2SE3 HTML CSS 2023. |&#9993;  faqihsyauqims@gmail.com</p>
+    </footer>
+</div>
+</body>
+</html>

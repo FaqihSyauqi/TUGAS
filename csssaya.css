@@ -1,0 +1,49 @@
+tr {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    color: rgb(72, 11, 133);
+    background-color: #f5ecf6;
+}
+.head {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    background-color: aqua;
+    padding: 10px;
+    color:rgb(240, 236, 5);
+    text-align: center;
+}
+body {
+    background-image:url('tianyi-ma-WiONHd_zYI4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border:solid darkgray;
+    border-spacing: 10px;
+    padding: 10px;
+    background-color: crimson;
+}
+.foot {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:aqua
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.left-link {
+    order: 1;
+  }
+  
+.right-link {
+    order: 2;
+  }
+  no{
+    box-sizing: border-box;
+}
